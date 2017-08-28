@@ -176,14 +176,14 @@
 		var LeafIcon6 = L.Icon.extend({
 			options: {
 				shadowUrl: 'lenin.png',
-				iconSize:     [30, 30],
+				iconSize:     [40, 40],
 				shadowSize:   [1, 1],
-				iconAnchor:   [10, 10],
+				iconAnchor:   [30, 10],
 				shadowAnchor: [1, 1],
 				popupAnchor:  [0, -15]
 			}
 		});
-		var greenIcon = new LeafIcon6({iconUrl: 'lenin.png'});
+		var greenIcon = new LeafIcon6({iconUrl: 'lenin_logo.png'});
 		L.marker([54.643759, 19.893970], {icon: greenIcon}).bindPopup("<b>Памятник Ленину</b><br><img src='lenin.jpg' width='300px'>").addTo(map);
 		
 		//маршрут
